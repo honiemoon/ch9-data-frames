@@ -14,7 +14,11 @@ games <- c(seahawks, allowed)
 # Create a new column "diff" that is the difference in points between the teams
 # Hint: recall the syntax for assigning new elements (which in this case will be
 # a vector) to a list!
-
+diff <- mutate(
+  seahawks,
+  
+  
+)
 
 # Create a new column "won" which is TRUE if the Seahawks won the game
 
